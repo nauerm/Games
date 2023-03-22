@@ -9,30 +9,37 @@ body{
     margin: 1rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #223045;
+    background-color: #293038;
+}
+h3{
+    color:#fff
 }
 a{
+    background-color: #ddd;
     display:block;
     margin: auto;
-    margin-bottom: 1rem;
-    width: fit-content;
+    margin-top: 1rem;
+    width: 15ch;
     text-decoration: none;
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.05);
     color:#000;
-}
-h3{
-    color:#fff
+    filter: brightness(100%);
 }
 a:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+    filter: brightness(80%);
 }
-
+.container{
+    background-color: #fff;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    padding: 3rem 4rem;
+}
 canvas{
-    background-color: #000;
+    background-color: #555968;
     margin: 2rem;
     border-radius: 20px;
 }
