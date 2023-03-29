@@ -83,7 +83,7 @@ function update(){
     y4 = y -CHAR_WIDTH/2 * Math.sin(angle) + (CHAR_HEIGHT/2 * Math.cos(angle));
 
     // Desenho do personagem
-    ctx.fillStyle = "#fff";
+    ctx.fillStyle = "#000";
     // Desenho da borda do personagem
     ctx.beginPath();
     ctx.lineWidth = 4;

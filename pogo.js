@@ -5,7 +5,7 @@ var ctx = canvas.getContext("2d");
 let width = 10;
 let height = 150;
 let x = canvas.width/2 - width/2;
-let y = 525 - height/2;
+let y = canvas.height- height;
 let bottom_y = y + canvas.height/2;
 let jump_counter = 0;
 let should_jump = false;
@@ -52,7 +52,7 @@ function draw()
         // y += GRAVITY;
     }
 
-    ctx.fillStyle = "#fff";
+    ctx.fillStyle = "#000";
     ctx.fillRect(x, y, width, height);
     
     

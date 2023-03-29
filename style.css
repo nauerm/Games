@@ -6,7 +6,7 @@
     font-size: 18pt;
 }
 body{
-    margin: 1rem;
+    margin: 1rem auto;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #293038;
@@ -36,10 +36,10 @@ a:hover{
     width: fit-content;
     margin: auto;
     border-radius: 20px;
-    padding: 3rem 4rem;
+    padding: 3rem 2rem;
 }
 canvas{
-    background-color: #555968;
-    margin: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
     border-radius: 20px;
 }
